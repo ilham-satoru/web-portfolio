@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  padding: 0px;
+}
+
+body{
+  background: url(galaxy.jpg);
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: darkblue;
+  box-shadow: 2px 2px 50px grey;
+}
+
+.navbar ul{
+  display: flex;
+  align-items: center;
+}
+
+.navbar ul li{
+  list-style: none;
+  padding: 8px;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.navbar ul .nama{
+  font-size: 30px;
+  color: white;
+  letter-spacing: 7px;
+  margin-right: auto;
+}
+
+.navbar ul li a{
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+}
+/* AKHIR NAVBAR */
+.card > img {
+  border-radius: 50%;
+  margin-top: 8px;
+ 
+}
+
+.text {
+  color: white;
+  text-align: center;
+  margin-top: 8px;
+  
+}
+
+.jumbotron h2 {
+  letter-spacing: 3px;
+}
+
+.card {
+  text-align: center;
+}
+/* ABOUT */
+.about {
+  color: white;
+  text-align: center;
+  background-color: #4b1b7b;
+  margin-top: 20px;
+  padding: 10px;
+}
+/* AKHIR ABOUT */
+/* GALLERY */
+ .gallery {
+   text-align: center;
+   font-family: arial;
+   margin-top: 20px;
+   color: white;
+ }
+
+/* AKHIR GALLERY */
+
+/* CONTACT */
+.contact {
+  color: white;
+  text-align: center;
+  background-color: #4b1b7b;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+ a {
+      margin-right: 8px;
+      color: white;
+      text-decoration: none;
+      background:linear-gradient(to right top, #640D5F,#1230AE);
+      padding: 6px;
+      border-radius:5px;
+      margin-top: 8px;
+    }
+
+.link {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+/* AKHIR CONTACT */
+.container {
+      justify-content: center;
+}
